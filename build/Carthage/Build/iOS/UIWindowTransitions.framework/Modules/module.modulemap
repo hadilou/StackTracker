@@ -1,0 +1,4 @@
+framework module UIWindowTransitions {
+    header "UIWindowTransitions-Swift.h"
+    requires objc
+}

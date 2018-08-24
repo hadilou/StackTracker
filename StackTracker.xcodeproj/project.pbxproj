@@ -15,6 +15,12 @@
 		5B817AA1212F7D5000A07406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B817A9F212F7D5000A07406 /* LaunchScreen.storyboard */; };
 		5B817AAC212F7D5000A07406 /* StackTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B817AAB212F7D5000A07406 /* StackTrackerTests.swift */; };
 		5B817AB7212F7D5000A07406 /* StackTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B817AB6212F7D5000A07406 /* StackTrackerUITests.swift */; };
+		5B817AE2212F801000A07406 /* CenteredCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B817AE1212F801000A07406 /* CenteredCollectionView.framework */; };
+		5B817AE4212F801400A07406 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B817AE3212F801400A07406 /* Eureka.framework */; };
+		5B817AE6212F801900A07406 /* UIWindowTransitions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B817AE5212F801900A07406 /* UIWindowTransitions.framework */; };
+		5B817AE8212F801E00A07406 /* Reusable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B817AE7212F801E00A07406 /* Reusable.framework */; };
+		5B817AEA212F802600A07406 /* FoldingCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B817AE9212F802600A07406 /* FoldingCell.framework */; };
+		5B817AED212F81A200A07406 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B817AEC212F81A200A07406 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		5B817AB2212F7D5000A07406 /* StackTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B817AB6212F7D5000A07406 /* StackTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTrackerUITests.swift; sourceTree = "<group>"; };
 		5B817AB8212F7D5000A07406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B817AE1212F801000A07406 /* CenteredCollectionView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CenteredCollectionView.framework; path = build/Carthage/Build/iOS/CenteredCollectionView.framework; sourceTree = "<group>"; };
+		5B817AE3212F801400A07406 /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = build/Carthage/Build/iOS/Eureka.framework; sourceTree = "<group>"; };
+		5B817AE5212F801900A07406 /* UIWindowTransitions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIWindowTransitions.framework; path = build/Carthage/Build/iOS/UIWindowTransitions.framework; sourceTree = "<group>"; };
+		5B817AE7212F801E00A07406 /* Reusable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reusable.framework; path = build/Carthage/Build/iOS/Reusable.framework; sourceTree = "<group>"; };
+		5B817AE9212F802600A07406 /* FoldingCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FoldingCell.framework; path = build/Carthage/Build/iOS/FoldingCell.framework; sourceTree = "<group>"; };
+		5B817AEC212F81A200A07406 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = build/Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B817AED212F81A200A07406 /* Alamofire.framework in Frameworks */,
+				5B817AE2212F801000A07406 /* CenteredCollectionView.framework in Frameworks */,
+				5B817AE4212F801400A07406 /* Eureka.framework in Frameworks */,
+				5B817AE6212F801900A07406 /* UIWindowTransitions.framework in Frameworks */,
+				5B817AE8212F801E00A07406 /* Reusable.framework in Frameworks */,
+				5B817AEA212F802600A07406 /* FoldingCell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,7 @@
 				5B817AAA212F7D5000A07406 /* StackTrackerTests */,
 				5B817AB5212F7D5000A07406 /* StackTrackerUITests */,
 				5B817A91212F7D4E00A07406 /* Products */,
+				5B817AC4212F7F9F00A07406 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +147,19 @@
 			path = StackTrackerUITests;
 			sourceTree = "<group>";
 		};
+		5B817AC4212F7F9F00A07406 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B817AEC212F81A200A07406 /* Alamofire.framework */,
+				5B817AE9212F802600A07406 /* FoldingCell.framework */,
+				5B817AE7212F801E00A07406 /* Reusable.framework */,
+				5B817AE5212F801900A07406 /* UIWindowTransitions.framework */,
+				5B817AE3212F801400A07406 /* Eureka.framework */,
+				5B817AE1212F801000A07406 /* CenteredCollectionView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +170,8 @@
 				5B817A8C212F7D4E00A07406 /* Sources */,
 				5B817A8D212F7D4E00A07406 /* Frameworks */,
 				5B817A8E212F7D4E00A07406 /* Resources */,
+				5B817AEB212F809F00A07406 /* ShellScript */,
+				5B817AF7212F85D400A07406 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,6 +287,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B817AEB212F809F00A07406 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+				"",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FoldingCell.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Reusable.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/UIWindowTransitions.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Eureka.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CenteredCollectionView.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FoldingCell.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Reusable.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/UIWindowTransitions.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Eureka.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CenteredCollectionView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		5B817AF7212F85D400A07406 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage outdated --xcode-warnings";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B817A8C212F7D4E00A07406 /* Sources */ = {
@@ -436,6 +512,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWM98WXM97;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = StackTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +534,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWM98WXM97;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = StackTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

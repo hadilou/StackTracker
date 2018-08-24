@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "4.2.0",
+  "iOS" : [
+    {
+      "name" : "Eureka",
+      "hash" : "b13fae2d23971a795cb41292bac08da8911b76e19c091a4858830b54454efe5f"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.1.1",
+  "iOS" : [
+    {
+      "name" : "UIWindowTransitions",
+      "hash" : "9d1eaf97421c7631f301c1e823db3b30dd6faf9d5a5e5f09ab15e429d5f5bde3"
+    }
+  ]
+}

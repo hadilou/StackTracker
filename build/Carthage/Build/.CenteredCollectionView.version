@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "2.0.0",
+  "iOS" : [
+    {
+      "name" : "CenteredCollectionView",
+      "hash" : "2b5dfd54e881480cb5a7647f66047aa728513d8a2859d28d94472cfbcb30d6dc"
+    }
+  ]
+}

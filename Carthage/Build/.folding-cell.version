@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "3.1.4",
+  "iOS" : [
+    {
+      "name" : "FoldingCell",
+      "hash" : "4e3034b059839c084595ac9cceb29ea8936d85e53390520a1e17f09d2bef8511"
+    }
+  ]
+}

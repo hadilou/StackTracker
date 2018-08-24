@@ -1,0 +1,14 @@
+
+github "Alamofire/Alamofire" == 4.7.2
+
+github "AliSoftware/Reusable" == 4.0.2
+
+github "xmartlabs/Eureka" == 4.2.0
+
+github "malcommac/UIWindowTransitions" == 0.1.1
+
+
+github "BenEmdon/CenteredCollectionView" == 2.0.0
+
+github "Ramotion/folding-cell"
+
