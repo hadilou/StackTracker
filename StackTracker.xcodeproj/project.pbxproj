@@ -27,6 +27,12 @@
 		5B817AFC212F9EBA00A07406 /* UIWindowTransitions.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B817AE5212F801900A07406 /* UIWindowTransitions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B817AFD212F9EBA00A07406 /* Eureka.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B817AE3212F801400A07406 /* Eureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B817AFE212F9EBA00A07406 /* CenteredCollectionView.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B817AE1212F801000A07406 /* CenteredCollectionView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BEDEC6B2144436800141B3E /* jobsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEDEC652144436800141B3E /* jobsConfiguration.swift */; };
+		5BEDEC6C2144436800141B3E /* jobsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEDEC662144436800141B3E /* jobsPresenter.swift */; };
+		5BEDEC6D2144436800141B3E /* jobsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEDEC672144436800141B3E /* jobsRouter.swift */; };
+		5BEDEC6E2144436800141B3E /* jobsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEDEC682144436800141B3E /* jobsModels.swift */; };
+		5BEDEC6F2144436800141B3E /* jobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEDEC692144436800141B3E /* jobsViewController.swift */; };
+		5BEDEC702144436800141B3E /* jobsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEDEC6A2144436800141B3E /* jobsInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +91,12 @@
 		5B817AE7212F801E00A07406 /* Reusable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reusable.framework; path = build/Carthage/Build/iOS/Reusable.framework; sourceTree = "<group>"; };
 		5B817AE9212F802600A07406 /* FoldingCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FoldingCell.framework; path = build/Carthage/Build/iOS/FoldingCell.framework; sourceTree = "<group>"; };
 		5B817AEC212F81A200A07406 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = build/Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		5BEDEC652144436800141B3E /* jobsConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobsConfiguration.swift; sourceTree = "<group>"; };
+		5BEDEC662144436800141B3E /* jobsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobsPresenter.swift; sourceTree = "<group>"; };
+		5BEDEC672144436800141B3E /* jobsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobsRouter.swift; sourceTree = "<group>"; };
+		5BEDEC682144436800141B3E /* jobsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobsModels.swift; sourceTree = "<group>"; };
+		5BEDEC692144436800141B3E /* jobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobsViewController.swift; sourceTree = "<group>"; };
+		5BEDEC6A2144436800141B3E /* jobsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobsInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +161,7 @@
 				5B817A9F212F7D5000A07406 /* LaunchScreen.storyboard */,
 				5B817AA2212F7D5000A07406 /* Info.plist */,
 				5B817A9A212F7D4E00A07406 /* StackTracker.xcdatamodeld */,
+				5BEDEC642144435700141B3E /* Faeatures */,
 			);
 			path = StackTracker;
 			sourceTree = "<group>";
@@ -182,6 +195,19 @@
 				5B817AE1212F801000A07406 /* CenteredCollectionView.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BEDEC642144435700141B3E /* Faeatures */ = {
+			isa = PBXGroup;
+			children = (
+				5BEDEC652144436800141B3E /* jobsConfiguration.swift */,
+				5BEDEC662144436800141B3E /* jobsPresenter.swift */,
+				5BEDEC672144436800141B3E /* jobsRouter.swift */,
+				5BEDEC682144436800141B3E /* jobsModels.swift */,
+				5BEDEC692144436800141B3E /* jobsViewController.swift */,
+				5BEDEC6A2144436800141B3E /* jobsInteractor.swift */,
+			);
+			path = Faeatures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,8 +386,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BEDEC6F2144436800141B3E /* jobsViewController.swift in Sources */,
+				5BEDEC6B2144436800141B3E /* jobsConfiguration.swift in Sources */,
+				5BEDEC6C2144436800141B3E /* jobsPresenter.swift in Sources */,
+				5BEDEC6E2144436800141B3E /* jobsModels.swift in Sources */,
+				5BEDEC702144436800141B3E /* jobsInteractor.swift in Sources */,
 				5B817A9C212F7D4E00A07406 /* StackTracker.xcdatamodeld in Sources */,
 				5B817A96212F7D4E00A07406 /* ViewController.swift in Sources */,
+				5BEDEC6D2144436800141B3E /* jobsRouter.swift in Sources */,
 				5B817A94212F7D4E00A07406 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
